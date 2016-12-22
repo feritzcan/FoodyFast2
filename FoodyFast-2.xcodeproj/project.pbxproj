@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BB097CF1E0C2E9500DC9246 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097C61E0C2E9500DC9246 /* MenuTableViewCell.swift */; };
+		4BB097D01E0C2E9500DC9246 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BB097C71E0C2E9500DC9246 /* MenuTableViewCell.xib */; };
+		4BB097D11E0C2E9500DC9246 /* LeftMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097C81E0C2E9500DC9246 /* LeftMenuTableViewController.swift */; };
+		4BB097D21E0C2E9500DC9246 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097C91E0C2E9500DC9246 /* HelpViewController.swift */; };
+		4BB097D31E0C2E9500DC9246 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097CA1E0C2E9500DC9246 /* ProfileViewController.swift */; };
+		4BB097D51E0C2E9500DC9246 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097CC1E0C2E9500DC9246 /* AboutViewController.swift */; };
+		4BB097D61E0C2E9500DC9246 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097CD1E0C2E9500DC9246 /* ContactViewController.swift */; };
+		4BB097D91E0C2FB600DC9246 /* ShowRoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097D81E0C2FB600DC9246 /* ShowRoomTableViewCell.swift */; };
+		4BB097DF1E0C33F200DC9246 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB097DE1E0C33F200DC9246 /* SideMenuNavigationController.swift */; };
 		4BFFF4A01E0C284300D1C694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFF49F1E0C284300D1C694 /* AppDelegate.swift */; };
 		4BFFF4A21E0C284300D1C694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFF4A11E0C284300D1C694 /* ViewController.swift */; };
 		4BFFF4A51E0C284300D1C694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFF4A31E0C284300D1C694 /* Main.storyboard */; };
@@ -14,6 +23,8 @@
 		4BFFF4AA1E0C284300D1C694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFF4A81E0C284300D1C694 /* LaunchScreen.storyboard */; };
 		4BFFF4B51E0C284300D1C694 /* FoodyFast_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFF4B41E0C284300D1C694 /* FoodyFast_2Tests.swift */; };
 		4BFFF4C01E0C284300D1C694 /* FoodyFast_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFF4BF1E0C284300D1C694 /* FoodyFast_2UITests.swift */; };
+		4BFFF4D11E0C2D1900D1C694 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFF4D01E0C2D1900D1C694 /* HomeController.swift */; };
+		90EB6A6E8800E99F3F92CE98 /* Pods_FoodyFast_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCA00D0AC14670863F55586 /* Pods_FoodyFast_2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022B2E7AB6526619EA268F8D /* Pods-FoodyFast-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyFast-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodyFast-2/Pods-FoodyFast-2.release.xcconfig"; sourceTree = "<group>"; };
+		4BB097C61E0C2E9500DC9246 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		4BB097C71E0C2E9500DC9246 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		4BB097C81E0C2E9500DC9246 /* LeftMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuTableViewController.swift; sourceTree = "<group>"; };
+		4BB097C91E0C2E9500DC9246 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = FoodyFast/HelpViewController.swift; sourceTree = "<group>"; };
+		4BB097CA1E0C2E9500DC9246 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = FoodyFast/ProfileViewController.swift; sourceTree = "<group>"; };
+		4BB097CC1E0C2E9500DC9246 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4BB097CD1E0C2E9500DC9246 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4BB097D81E0C2FB600DC9246 /* ShowRoomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowRoomTableViewCell.swift; sourceTree = "<group>"; };
+		4BB097DE1E0C33F200DC9246 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuNavigationController.swift; sourceTree = "<group>"; };
 		4BFFF49C1E0C284300D1C694 /* FoodyFast-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodyFast-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFFF49F1E0C284300D1C694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BFFF4A11E0C284300D1C694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,9 @@
 		4BFFF4BB1E0C284300D1C694 /* FoodyFast-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodyFast-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFFF4BF1E0C284300D1C694 /* FoodyFast_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyFast_2UITests.swift; sourceTree = "<group>"; };
 		4BFFF4C11E0C284400D1C694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFFF4D01E0C2D1900D1C694 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		876971BD83EC3EFAE8C5BE18 /* Pods-FoodyFast-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyFast-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodyFast-2/Pods-FoodyFast-2.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCA00D0AC14670863F55586 /* Pods_FoodyFast_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodyFast_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EB6A6E8800E99F3F92CE98 /* Pods_FoodyFast_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032991AF29679B7DA51F1F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA00D0AC14670863F55586 /* Pods_FoodyFast_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB097CE1E0C2E9500DC9246 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4BB097C61E0C2E9500DC9246 /* MenuTableViewCell.swift */,
+				4BB097C71E0C2E9500DC9246 /* MenuTableViewCell.xib */,
+				4BB097C81E0C2E9500DC9246 /* LeftMenuTableViewController.swift */,
+				4BB097C91E0C2E9500DC9246 /* HelpViewController.swift */,
+				4BB097CA1E0C2E9500DC9246 /* ProfileViewController.swift */,
+				4BB097CC1E0C2E9500DC9246 /* AboutViewController.swift */,
+				4BB097CD1E0C2E9500DC9246 /* ContactViewController.swift */,
+				4BB097DE1E0C33F200DC9246 /* SideMenuNavigationController.swift */,
+			);
+			name = SideMenu;
+			path = /Users/feritzcan/Desktop/FoodyFast/FoodyFast/..;
+			sourceTree = "<absolute>";
+		};
+		4BB097D71E0C2FA900DC9246 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				4BB097D81E0C2FB600DC9246 /* ShowRoomTableViewCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
 		4BFFF4931E0C284300D1C694 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,8 @@
 				4BFFF4B31E0C284300D1C694 /* FoodyFast-2Tests */,
 				4BFFF4BE1E0C284300D1C694 /* FoodyFast-2UITests */,
 				4BFFF49D1E0C284300D1C694 /* Products */,
+				A09CAFD672567AE6C562CF97 /* Pods */,
+				032991AF29679B7DA51F1F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				4BFFF49F1E0C284300D1C694 /* AppDelegate.swift */,
+				4BB097D71E0C2FA900DC9246 /* CustomCells */,
+				4BB097CE1E0C2E9500DC9246 /* SideMenu */,
+				4BFFF4CF1E0C2D0D00D1C694 /* ViewControllers */,
 				4BFFF4A11E0C284300D1C694 /* ViewController.swift */,
 				4BFFF4A31E0C284300D1C694 /* Main.storyboard */,
 				4BFFF4A61E0C284300D1C694 /* Assets.xcassets */,
@@ -125,6 +187,23 @@
 			path = "FoodyFast-2UITests";
 			sourceTree = "<group>";
 		};
+		4BFFF4CF1E0C2D0D00D1C694 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFF4D01E0C2D1900D1C694 /* HomeController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A09CAFD672567AE6C562CF97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				876971BD83EC3EFAE8C5BE18 /* Pods-FoodyFast-2.debug.xcconfig */,
+				022B2E7AB6526619EA268F8D /* Pods-FoodyFast-2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BFFF4C41E0C284400D1C694 /* Build configuration list for PBXNativeTarget "FoodyFast-2" */;
 			buildPhases = (
+				5EB6640752CE88361709E6DC /* [CP] Check Pods Manifest.lock */,
 				4BFFF4981E0C284300D1C694 /* Sources */,
 				4BFFF4991E0C284300D1C694 /* Frameworks */,
 				4BFFF49A1E0C284300D1C694 /* Resources */,
+				889BA08E2AFA27EA0493892A /* [CP] Embed Pods Frameworks */,
+				5883C6FC7A23CE39B6A1E3F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +275,6 @@
 				TargetAttributes = {
 					4BFFF49B1E0C284300D1C694 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = S9QXLS2NJ2;
 						ProvisioningStyle = Automatic;
 					};
 					4BFFF4AF1E0C284300D1C694 = {
@@ -237,6 +318,7 @@
 			files = (
 				4BFFF4AA1E0C284300D1C694 /* LaunchScreen.storyboard in Resources */,
 				4BFFF4A71E0C284300D1C694 /* Assets.xcassets in Resources */,
+				4BB097D01E0C2E9500DC9246 /* MenuTableViewCell.xib in Resources */,
 				4BFFF4A51E0C284300D1C694 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +339,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5883C6FC7A23CE39B6A1E3F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodyFast-2/Pods-FoodyFast-2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB6640752CE88361709E6DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		889BA08E2AFA27EA0493892A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodyFast-2/Pods-FoodyFast-2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BFFF4981E0C284300D1C694 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4BFFF4A21E0C284300D1C694 /* ViewController.swift in Sources */,
+				4BB097D21E0C2E9500DC9246 /* HelpViewController.swift in Sources */,
+				4BB097D11E0C2E9500DC9246 /* LeftMenuTableViewController.swift in Sources */,
+				4BB097D51E0C2E9500DC9246 /* AboutViewController.swift in Sources */,
+				4BB097DF1E0C33F200DC9246 /* SideMenuNavigationController.swift in Sources */,
 				4BFFF4A01E0C284300D1C694 /* AppDelegate.swift in Sources */,
+				4BB097D31E0C2E9500DC9246 /* ProfileViewController.swift in Sources */,
+				4BB097D91E0C2FB600DC9246 /* ShowRoomTableViewCell.swift in Sources */,
+				4BB097CF1E0C2E9500DC9246 /* MenuTableViewCell.swift in Sources */,
+				4BFFF4D11E0C2D1900D1C694 /* HomeController.swift in Sources */,
+				4BB097D61E0C2E9500DC9246 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +550,12 @@
 		};
 		4BFFF4C51E0C284400D1C694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876971BD83EC3EFAE8C5BE18 /* Pods-FoodyFast-2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S9QXLS2NJ2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "FoodyFast-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pot.FoodyFast-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,10 +565,12 @@
 		};
 		4BFFF4C61E0C284400D1C694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022B2E7AB6526619EA268F8D /* Pods-FoodyFast-2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S9QXLS2NJ2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "FoodyFast-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pot.FoodyFast-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +655,7 @@
 				4BFFF4C61E0C284400D1C694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BFFF4C71E0C284400D1C694 /* Build configuration list for PBXNativeTarget "FoodyFast-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +664,7 @@
 				4BFFF4C91E0C284400D1C694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BFFF4CA1E0C284400D1C694 /* Build configuration list for PBXNativeTarget "FoodyFast-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +673,7 @@
 				4BFFF4CC1E0C284400D1C694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

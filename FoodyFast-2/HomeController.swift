@@ -10,7 +10,6 @@ import UIKit
 //import RPSlidingMenu
 
 
-import SWFrameButton
 import PagedHorizontalView
 class HomeController: UIViewController{
     
@@ -28,11 +27,7 @@ class HomeController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var restmanager=RestaurantManager()
-        restmanager.getRestaurants()
         
-        var login=LoginManager();
-        login.getLogin()
         barButton.image=UIImage(named: "side")
         tableView.delegate=self
         tableView.dataSource=self
@@ -96,14 +91,14 @@ extension HomeController:UITableViewDataSource{
         
         print("table")
         
+        print("table")
+        
         let cell:ShowRoomTableViewCell = tableView.dequeueReusableCell(withIdentifier: "ShowRoomCell")! as! ShowRoomTableViewCell
         cell.name.text="Nusret Steak House"
         cell.name.strokePosition = .outside
         cell.locationLabel.text="32KM"
         
         return cell
-        
-        
     }
 }
 
