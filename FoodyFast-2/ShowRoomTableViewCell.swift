@@ -17,11 +17,8 @@ class ShowRoomTableViewCell:UITableViewCell{
     
     @IBOutlet weak var name: THLabel!
     @IBOutlet weak var locationLabel: THLabel!
-
     var ratingView:EZRatingView!
   
-    
-    
     
     
     

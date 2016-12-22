@@ -7,14 +7,10 @@
 //
 
 import UIKit
-//import RPSlidingMenu
 
 
-import PagedHorizontalView
 class HomeController: UIViewController{
-    
     @IBOutlet weak var barButton: UIBarButtonItem!
-    
     @IBOutlet weak var tableView: UITableView!
     var numberOfItemsInSlidingMenu=10;
     
